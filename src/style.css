@@ -1,39 +1,55 @@
 body {
   background-color: #ede5e3;
+  font-family: "Poetsen One";
 }
 
 .container {
-  background-color: pink;
+  background-color: #774181;
   margin: 120px auto;
-  max-width: 700px;
+  max-width: 800px;
+  border-radius: 10px;
 }
 h1 {
-  color: whitesmoke;
+  color: #ede5e3;
   font-family: "Poetsen One";
   text-align: center;
   line-height: 1.5;
-  font-size: 45px;
+  font-size: 34px;
+  margin: 0;
+  letter-spacing: 2px;
 }
 
-h2 {
-  color: whitesmoke;
+H2 {
+  color: #ede5e3;
   font-family: "Poetsen One";
   text-align: center;
+  font-size: 31px;
+  margin: 0;
 }
 
 p {
-  color: purple;
+  color: #f8da5b;
   font-family: "Poetsen One";
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
+  padding: 20px;
+  letter-spacing: 2px;
 }
 
 .book {
-  color: yellow;
+  color: #440427;
+}
+
+.book-result {
+  color: #440427;
+  background-color: whitesmoke;
+  font-size: 14px;
+  padding: 20px;
+  line-height: 1.5;
+  border-left: 3px solid #774181;
 }
 
 header {
-  margin-bottom: 30px;
 }
 
 form {
@@ -41,11 +57,17 @@ form {
   padding: 30px;
   display: flex;
 }
-
 .instructions {
   padding: 16px;
   border: 1px;
   width: 50%;
   line-height: 20px;
   font-size: 15px;
+}
+.AI {
+  color: #440427;
+}
+
+.submit-button {
+  border-radius: 8px;
 }
