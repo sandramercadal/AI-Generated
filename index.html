@@ -3,11 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI generated poem or recipe</title>
+    <title>AI Librarian</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>Welcome</h1>
+    <header>
+      <h1>What to read next? Let the AI Librarian help you choose!</h1>
+      <h2>If you loved reading The Midnight Library you will love XYZ</h2>
+    </header>
+
+    <main>
+      <form>
+        <input
+          type="text"
+          placeholder="Enter a book title"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" />
+      </form>
+    </main>
+
+    <div>
+      The book title will go here
+      <br />
+      The book synopsis will go here
+      <br />
+    </div>
 
     <script src="index.js"></script>
   </body>
