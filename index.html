@@ -5,33 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Librarian</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Poetsen+One&family=Sail&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h1>What to read next? Let the AI Librarian help you choose!</h1>
-      <h2>If you loved reading The Midnight Library you will love XYZ</h2>
-    </header>
+    <div class="container">
+      <header>
+        <h1>What to read next?</h1>
+        <h2>Let the AI Librarian help you choose!</h2>
+        <p>
+          Todays recommendation:
+          <em
+            >If you loved reading
+            <span class="book">The Midnight Library</span> you will love
+            <span class="book">One Day</span></em
+          >
+        </p>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a book title"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a book title"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" />
+        </form>
+      </main>
 
-    <div>
-      The book title will go here
-      <br />
-      The book synopsis will go here
-      <br />
+      <div>
+        The book title will go here
+        <br />
+        The book synopsis will go here
+        <br />
+      </div>
     </div>
-
     <script src="index.js"></script>
   </body>
 </html>

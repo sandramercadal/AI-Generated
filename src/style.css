@@ -1,3 +1,51 @@
+body {
+  background-color: #ede5e3;
+}
+
+.container {
+  background-color: pink;
+  margin: 120px auto;
+  max-width: 700px;
+}
 h1 {
-  color: red;
+  color: whitesmoke;
+  font-family: "Poetsen One";
+  text-align: center;
+  line-height: 1.5;
+  font-size: 45px;
+}
+
+h2 {
+  color: whitesmoke;
+  font-family: "Poetsen One";
+  text-align: center;
+}
+
+p {
+  color: purple;
+  font-family: "Poetsen One";
+  text-align: center;
+  font-size: 14px;
+}
+
+.book {
+  color: yellow;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+form {
+  border-radius: 8px;
+  padding: 30px;
+  display: flex;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px;
+  width: 50%;
+  line-height: 20px;
+  font-size: 15px;
 }
