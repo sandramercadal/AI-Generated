@@ -6,7 +6,7 @@ body {
 .container {
   background-color: #774181;
   margin: 120px auto;
-  max-width: 800px;
+  max-width: 650px;
   border-radius: 10px;
 }
 h1 {
@@ -14,7 +14,7 @@ h1 {
   font-family: "Poetsen One";
   text-align: center;
   line-height: 1.5;
-  font-size: 34px;
+  font-size: 30px;
   margin: 0;
   letter-spacing: 2px;
 }
@@ -23,7 +23,7 @@ H2 {
   color: #ede5e3;
   font-family: "Poetsen One";
   text-align: center;
-  font-size: 31px;
+  font-size: 20px;
   margin: 0;
 }
 
