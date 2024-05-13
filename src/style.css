@@ -9,6 +9,7 @@ body {
   max-width: 650px;
   border-radius: 10px;
 }
+
 h1 {
   color: #774181;
   font-family: "Poetsen One";
@@ -53,13 +54,20 @@ header {
 }
 
 form {
-  border-radius: 8px;
-  padding: 10px;
   display: flex;
+}
+.form-container {
   margin-right: 30px;
   margin-left: 30px;
+  border-radius: 8px;
+  padding: 10px;
 }
-
+.hint {
+  color: white;
+  opacity: 0.6;
+  font-size: 13px;
+  margin-top: 5px;
+}
 .prompt {
   padding: 16px;
   border: 1px solid;

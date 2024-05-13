@@ -32,18 +32,24 @@
       </header>
 
       <main>
-        <form id="book-generator-form">
-          <input
-            type="text"
-            placeholder="Enter a book title"
-            autofocus
-            required
-            autocomplete="off"
-            class="prompt"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form id="book-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a book title"
+              autofocus
+              required
+              autocomplete="off"
+              class="prompt"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+
+          <div class="hint">
+            i.e: The Alchemist, Lord of the Rings, Little Women
+          </div>
+        </div>
       </main>
 
       <div class="book-result" id="book-result"></div>
