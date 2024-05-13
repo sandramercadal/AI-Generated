@@ -4,13 +4,13 @@ body {
 }
 
 .container {
-  background-color: lightseagreen;
+  background-color: darkgray;
   margin: 120px auto;
   max-width: 650px;
   border-radius: 10px;
 }
 h1 {
-  color: #ede5e3;
+  color: #774181;
   font-family: "Poetsen One";
   text-align: center;
   line-height: 1.5;
@@ -28,7 +28,7 @@ H2 {
 }
 
 p {
-  color: #f8da5b;
+  color: #ede5e3;
   font-family: "Poetsen One";
   text-align: center;
   font-size: 13px;
@@ -57,13 +57,29 @@ form {
   padding: 30px;
   display: flex;
 }
-.instructions {
+
+.prompt {
   padding: 16px;
-  border: 1px;
-  width: 50%;
+  border: 1px solid;
+  border-radius: 15px;
+  width: 80%;
   line-height: 20px;
-  font-size: 15px;
+  font-size: 14px;
+  color: #774181;
+  font-family: "Poetsen One";
+  letter-spacing: 2px;
 }
+
+.submit-button {
+  margin-left: 9px;
+  background: #774181;
+  color: white;
+  border-radius: 15px;
+  padding: 12px;
+  border: none;
+  font-size: 14px;
+}
+
 .AI {
   color: #440427;
 }
