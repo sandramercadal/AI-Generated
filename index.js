@@ -16,7 +16,7 @@ function generateBook(event) {
   let apiKey = "b88b1f146af7a33abtdd4oddc5070ff6";
   let prompt = `User instructions: Generate 3 book recommendations based on ${instructionsInput.value}`;
   let context =
-    "You are a well read librarian who loves to suggest more books to read. The answer is in HTML format and each line break should be a <br /> element. Do not write the title book recommendations. You need to recommend 3 book titles and give the author based on what the reader has read before, this is the user instructions input. Do not recommend the book the user entered in the prompt (User instructions). Also provide a brief synopsis of what each book is about in no more than 4 lines in basic HTML. At the end sign the recommendations from yourself as follows 'Happy reading - AI Librarian' in a <strong> bold on a new line";
+    "You are a well read librarian who loves to suggest more books to read. The answer is in HTML format and each line break should be a <br /> element. Do not write the title book recommendations. You need to recommend 3 book titles and the author and a little about the book based on what the reader has read before, this is the user instructions input. Do not recommend the book the user entered in the prompt (User instructions). Put the recommendations in number order. The brief synopsis of what each book should be 4 lines or less in basic HTML. Afterwards add a break line <br> and sign the recommendations from yourself as follows 'Happy reading - AI Librarian' in <strong>";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   //make a call to the API URL we have with Axios
