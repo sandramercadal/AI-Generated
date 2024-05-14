@@ -50,6 +50,10 @@ p {
   border-left: 3px solid #774181;
 }
 
+.hidden {
+  display: none;
+}
+
 header {
 }
 
