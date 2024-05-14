@@ -21,6 +21,7 @@ function generateBook(event) {
 
   let bookResultElement = document.querySelector("#book-result");
   bookResultElement.classList.remove("hidden");
+  bookResultElement.innerHTML = `<div class="generating">📚 Here come your book recommendations based on ${instructionsInput.value}</div>`;
 
   //make a call to the API URL we have with Axios
   console.log("Here come your book recommendations");
