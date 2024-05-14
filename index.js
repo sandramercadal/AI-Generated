@@ -9,7 +9,6 @@ function displayBook(response) {
 }
 
 function generateBook(event) {
-  //console.log("processed");
   event.preventDefault();
 
   let instructionsInput = document.querySelector("#user-instructions");
@@ -24,7 +23,6 @@ function generateBook(event) {
   bookResultElement.innerHTML = `<div class="generating">📚 Here come your book recommendations based on ${instructionsInput.value}</div>`;
 
   //make a call to the API URL we have with Axios
-  console.log("Here come your book recommendations");
   axios.get(apiUrl).then(displayBook);
 }
 
