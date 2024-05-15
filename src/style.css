@@ -1,8 +1,8 @@
 :root {
-  --primary-color: pink;
-  :root {
-    --secondary-color: #f9522c;
-  }
+  --primary-color: #ede5e3;
+  --secondary-color: #f9522c;
+  --accent2-color: black;
+  --accent-color: #222831;
 }
 
 bookcontainer {
@@ -46,7 +46,6 @@ header {
 
 body {
   background-color: #ede5e3;
-  font-family: "Poetsen One";
 }
 
 .container {
@@ -57,7 +56,7 @@ body {
 }
 
 h1 {
-  color: black;
+  color: #ede5e3;
   font-family: "Rowdies", sans-serif;
   font-weight: 700;
   font-style: bold;
@@ -69,7 +68,7 @@ h1 {
 }
 
 H2 {
-  color: #ede5e3;
+  color: var(--accent2-color);
   font-family: "Rowdies", sans-serif;
   font-weight: 700;
   font-style: bold;
@@ -95,12 +94,15 @@ p {
 }
 
 .book-result {
-  color: #440427;
+  color: var(--accent2-color);
   background-color: whitesmoke;
-  font-size: 14px;
+  font-size: 17px;
   padding: 20px;
   line-height: 1.5;
-  border-left: 3px solid #774181;
+  border-left: 3px solid var(--accent-color);
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .hidden {
@@ -117,10 +119,12 @@ form {
   padding: 10px;
 }
 .hint {
-  color: white;
-  opacity: 0.6;
-  font-size: 12px;
+  color: var(--primary-color);
+  font-size: 14px;
   margin-top: 5px;
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .prompt {
   padding: 16px;
@@ -128,20 +132,23 @@ form {
   border-radius: 15px;
   width: 80%;
   line-height: 20px;
-  font-size: 14px;
-  color: #774181;
-  font-family: "Poetsen One";
+  font-size: 16px;
+  font-family: "Gruppo", sans-serif;
+  font-style: bold;
   letter-spacing: 2px;
+  color: var(--secondary-color);
 }
 
 .submit-button {
   margin-left: 9px;
-  background: #61378b;
-  color: white;
+  background: white;
   border-radius: 15px;
   padding: 12px;
   border: none;
   font-size: 14px;
+  font-family: "Gruppo", sans-serif;
+  font-weight: 700;
+  font-style: bold;
 }
 
 .AI {
