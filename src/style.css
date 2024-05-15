@@ -1,3 +1,43 @@
+bookcontainer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #f2f2f2;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.book-logos {
+  overflow: hidden;
+  padding: 40px 0;
+  background: #ede5e3;
+  white-space: nowrap;
+}
+
+.book-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.book-slide img {
+  height: 90px;
+  margin: 0 40px;
+}
+
+.logos:hover .book-slide {
+  animation-play-state: paused;
+}
+
 body {
   background-color: #ede5e3;
   font-family: "Poetsen One";
@@ -52,9 +92,6 @@ p {
 
 .hidden {
   display: none;
-}
-
-header {
 }
 
 form {
