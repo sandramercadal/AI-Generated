@@ -120,11 +120,9 @@ form {
 }
 .hint {
   color: var(--primary-color);
-  font-size: 14px;
+  font-size: 11px;
   margin-top: 5px;
   font-family: "Gruppo", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 .prompt {
   padding: 16px;
@@ -155,6 +153,18 @@ form {
   color: #440427;
 }
 
+.footerwords {
+  color: var(--primary-color);
+  font-family: "Gruppo", sans-serif;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: paleturquoise;
+}
+
+.footerwords a {
+  color: paleturquoise;
+}
 .generating {
   animation: blink-animation 1s steps(5, start) infinite;
 }
