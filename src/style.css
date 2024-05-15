@@ -1,3 +1,10 @@
+:root {
+  --primary-color: pink;
+  :root {
+    --secondary-color: #f9522c;
+  }
+}
+
 bookcontainer {
   margin: 0;
   padding: 0;
@@ -5,7 +12,6 @@ bookcontainer {
 }
 
 header {
-  background: #f2f2f2;
 }
 
 @keyframes slide {
@@ -19,7 +25,7 @@ header {
 
 .book-logos {
   overflow: hidden;
-  padding: 40px 0;
+  padding: 15px 0;
   background: #ede5e3;
   white-space: nowrap;
 }
@@ -34,7 +40,7 @@ header {
   margin: 0 40px;
 }
 
-.logos:hover .book-slide {
+.book-logos:hover .book-slide {
   animation-play-state: paused;
 }
 
@@ -44,41 +50,48 @@ body {
 }
 
 .container {
-  background-color: darkgray;
-  margin: 120px auto;
+  background-color: #222831;
+  margin: 30px auto;
   max-width: 650px;
   border-radius: 10px;
 }
 
 h1 {
-  color: #774181;
-  font-family: "Poetsen One";
+  color: black;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: bold;
   text-align: center;
   line-height: 1.5;
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 H2 {
   color: #ede5e3;
-  font-family: "Poetsen One";
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: bold;
   text-align: center;
-  font-size: 20px;
+  font-size: 27px;
   margin: 0;
+  letter-spacing: 2px;
 }
 
 p {
   color: #ede5e3;
-  font-family: "Poetsen One";
+  font-family: "Gruppo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   padding: 20px;
   letter-spacing: 2px;
 }
 
 .book {
-  color: #440427;
+  color: #f9522c;
 }
 
 .book-result {
@@ -123,7 +136,7 @@ form {
 
 .submit-button {
   margin-left: 9px;
-  background: #774181;
+  background: #61378b;
   color: white;
   border-radius: 15px;
   padding: 12px;
