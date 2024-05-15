@@ -6,9 +6,9 @@
 }
 
 bookcontainer {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 header {
@@ -25,9 +25,9 @@ header {
 
 .book-logos {
   overflow: hidden;
+  white-space: nowrap;
   padding: 15px 0;
   background: #ede5e3;
-  white-space: nowrap;
 }
 
 .book-slide {
@@ -36,8 +36,8 @@ header {
 }
 
 .book-slide img {
-  height: 90px;
   margin: 0 40px;
+  height: 90px;
 }
 
 .book-logos:hover .book-slide {
@@ -50,9 +50,9 @@ body {
 
 .container {
   background-color: #222831;
+  border-radius: 10px;
   margin: 30px auto;
   max-width: 650px;
-  border-radius: 10px;
 }
 
 h1 {
